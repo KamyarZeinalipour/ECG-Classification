@@ -1,3 +1,17 @@
+# ECG classification with Graph Isomorphism Networks
+
+Code for *Graph Neural Networks for Topological Feature Extraction in ECG Classification*,
+K. Zeinalipour and M. Gori, WIRN 2022 (Springer, 2023), [doi:10.1007/978-981-99-3592-5_2](https://doi.org/10.1007/978-981-99-3592-5_2).
+[Paper page](https://kamyarzeinalipour.github.io/papers/graph-neural-networks-for-topological-feature-extraction-in.html)
+
+ECG heartbeats are turned into visibility graphs with [ts2g](https://github.com/KamyarZeinalipour/ts2g)
+and classified with a Graph Isomorphism Network (GIN).
+
+The GIN implementation builds on the official code of Xu et al., *How Powerful are Graph Neural Networks?*
+(ICLR 2019). Their original README follows, unchanged.
+
+---
+
 # How Powerful are Graph Neural Networks?
 
 This repository is the official PyTorch implementation of the experiments in the following paper: 
